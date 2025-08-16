@@ -8,13 +8,13 @@ public class P8{
         while(t-- > 0){
             int n = sc.nextInt();
             int target = sc.nextInt();
-            boolean f = false;
+            boolean flag = false;
             int[] arr = new int[n];
             for(int i = 0 ; i < n ; i++){
                 arr[i] = sc.nextInt();
-                if(target == arr[i]) f = true;
+                if(target == arr[i]) flag = true;
             }
-            if(f) System.out.println("YES");
+            if(flag) System.out.println("YES");
             else System.out.println("NO");
         }
         sc.close();
