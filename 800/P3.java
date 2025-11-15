@@ -18,5 +18,6 @@ public class P3 {
             }
             System.out.println(cnt);
         }
+        sc.close();
     }
 }

@@ -18,5 +18,6 @@ public class P2{
             maxDistance = Math.max(maxDistance,2*(x-prev));
             System.out.println(maxDistance);
         }
+        sc.close();
     }
 }
