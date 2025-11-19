@@ -36,5 +36,6 @@ public class CutRibbon {
 
         int ans = helper(n, arr, 0, dp);
         System.out.println(ans);
+        sc.close();
     }
 }
